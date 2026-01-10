@@ -465,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "nhienkeeb.kicad_pro",
+    "filename": "prilkeeb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -504,7 +504,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "nhienkeeb.step",
+      "step": "prilkeeb.step",
       "svg": "",
       "vrml": ""
     },
