@@ -1,4 +1,4 @@
-28538065254909858
+28539833321276642
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -113016,6 +113016,13 @@ switch, hot_swap
 2
 key-switches
 SW_MX_HotSwap_PTH_double
+Cherry MX style mechanical keyboard switch, through-hole soldering and Kailh/Gateron hot-swap socket, the hole of the socket is plated, double-sided mounting.
+switch, hot_swap
+0
+12
+2
+key-switches
+SW_MX_HotSwap_PTH_double_1
 Cherry MX style mechanical keyboard switch, through-hole soldering and Kailh/Gateron hot-swap socket, the hole of the socket is plated, double-sided mounting.
 switch, hot_swap
 0
