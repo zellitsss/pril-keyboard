@@ -57,7 +57,7 @@
 			)
 			(symbol "MCU_Nice_Nano_V2_0_1"
 				(rectangle
-					(start -10.16 16.51)
+					(start -10.16 17.78)
 					(end 10.16 -16.51)
 					(stroke
 						(width 0)
@@ -69,6 +69,24 @@
 				)
 			)
 			(symbol "MCU_Nice_Nano_V2_1_1"
+				(pin input line
+					(at -15.24 16.51 0)
+					(length 5.08)
+					(name "B-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -15.24 13.97 0)
 					(length 5.08)
@@ -340,6 +358,24 @@
 					)
 				)
 				(pin input line
+					(at 15.24 16.51 180)
+					(length 5.08)
+					(name "B+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 15.24 13.97 180)
 					(length 5.08)
 					(name "B+"
@@ -349,7 +385,7 @@
 							)
 						)
 					)
-					(number "24"
+					(number "RAW"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -869,6 +905,156 @@
 				(pin passive line
 					(at 2.54 -2.54 180)
 					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -1788,6 +1974,28 @@
 			)
 		)
 	)
+	(global_label "RST"
+		(shape input)
+		(at 207.01 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0da92bc0-fa42-4927-928a-6e9fcb6d5b7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.4423 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col_6"
 		(shape input)
 		(at 109.22 71.12 90)
@@ -1801,6 +2009,28 @@
 		(uuid "122f33c8-4d81-4c5d-a7bb-06ff201c2694")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 109.22 62.8735 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 207.01 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b12eeab-1c3b-4e81-9738-5607a2604264")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.6238 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,6 +2106,28 @@
 			)
 		)
 	)
+	(global_label "RST"
+		(shape input)
+		(at 200.66 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b78261d-f3b2-4079-9467-3b19a39bc0b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.0923 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col_4"
 		(shape input)
 		(at 207.01 102.87 0)
@@ -1911,6 +2163,28 @@
 		(uuid "45273fa1-5210-45b9-95c2-de7dd12e1ad8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.2565 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST"
+		(shape input)
+		(at 200.66 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c1ef8c8-e4c5-479e-848b-d0ba80e224e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.0923 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,6 +2260,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 190.5 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "710ce8a9-b8ec-4649-9f19-15cf1a7c1ea6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.6443 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col_3"
 		(shape input)
 		(at 207.01 100.33 0)
@@ -2052,6 +2348,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 207.01 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "938917fb-d7ad-4007-9d1b-f5ebc68170f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.8657 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Row_2"
 		(shape input)
 		(at 128.27 96.52 0)
@@ -2092,6 +2410,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 190.5 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b12db262-cde8-4586-b23f-3d0bfb4e35de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.6443 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3073,7 +3413,7 @@
 		(pin "19"
 			(uuid "ccdec089-f2aa-41ad-9474-e05d6e5d7e4a")
 		)
-		(pin "24"
+		(pin "RAW"
 			(uuid "1bd2b079-d31b-4e2f-a28f-861be70ecc40")
 		)
 		(pin "18"
@@ -3132,6 +3472,12 @@
 		)
 		(pin "14"
 			(uuid "4ee29cc3-9cb5-4eeb-bb3f-31c1dc48fe84")
+		)
+		(pin "25"
+			(uuid "54df52a9-4d42-4a0b-82ac-bcd218bd23ae")
+		)
+		(pin "26"
+			(uuid "323b3fbf-8c7d-4ddd-b2b8-49e22f3402a6")
 		)
 		(instances
 			(project ""
@@ -4315,6 +4661,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 195.58 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76341294-c11c-40aa-9e86-05aec11ac2cd")
+		(property "Reference" "RST_SW_R1"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_SKQG_WithStem"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1426159-8ab5-4080-b289-bf267c4a0263")
+		)
+		(pin "1"
+			(uuid "fa67043f-1546-42ef-92e2-a219dd482493")
+		)
+		(instances
+			(project "prilkeeb"
+				(path "/f238781f-c890-404f-bc9e-87ff6761e41b"
+					(reference "RST_SW_R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 81.28 104.14 0)
 		(unit 1)
@@ -4381,6 +4795,74 @@
 			(project "nhienkeeb"
 				(path "/f238781f-c890-404f-bc9e-87ff6761e41b"
 					(reference "S16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 195.58 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ffec675-39b1-4ec5-8ce0-40152dc4eb1c")
+		(property "Reference" "RST_SW_L1"
+			(at 195.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 195.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_SKQG_WithStem"
+			(at 195.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 195.58 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56fcf536-c906-4e1a-8baa-52dbf5ae0492")
+		)
+		(pin "1"
+			(uuid "de80c6c9-6864-4142-a0f9-8b843f9711f9")
+		)
+		(instances
+			(project ""
+				(path "/f238781f-c890-404f-bc9e-87ff6761e41b"
+					(reference "RST_SW_L1")
 					(unit 1)
 				)
 			)
