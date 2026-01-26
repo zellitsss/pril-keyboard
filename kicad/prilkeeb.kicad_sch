@@ -995,7 +995,7 @@
 							)
 						)
 					)
-					(number "RAW"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3412,6 +3412,28 @@
 			)
 		)
 	)
+	(global_label "RST"
+		(shape input)
+		(at 200.66 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b720dc25-279f-4ee3-9af7-c0a7f188cff4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.0923 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col_5"
 		(shape input)
 		(at 93.98 71.12 90)
@@ -3474,6 +3496,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 190.5 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf2fff58-bb89-4eb0-8c0f-664cb1c368fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.6443 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4508,7 +4552,7 @@
 		(pin "19"
 			(uuid "ccdec089-f2aa-41ad-9474-e05d6e5d7e4a")
 		)
-		(pin "RAW"
+		(pin "24"
 			(uuid "1bd2b079-d31b-4e2f-a28f-861be70ecc40")
 		)
 		(pin "18"
@@ -5853,7 +5897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
+		(property "Footprint" "ScottoKeebs_Components:Button_TL3342"
 			(at 195.58 50.8 0)
 			(effects
 				(font
@@ -6217,7 +6261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Scotto:Encoder_EC11_MX"
+		(property "Footprint" "prillkeeb:Encoder_EC11_MX_Jumpers_Reversible"
 			(at 151.384 125.73 0)
 			(effects
 				(font
@@ -8524,6 +8568,74 @@
 			(project "nhienkeeb"
 				(path "/f238781f-c890-404f-bc9e-87ff6761e41b"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 195.58 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0555154-1fcb-445c-b281-f330a13e1131")
+		(property "Reference" "RST_SW2"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Button_TL3342"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "554d697a-41cd-4d06-8eba-7c1c1523be17")
+		)
+		(pin "1"
+			(uuid "0e57fcb7-c406-49c9-94ff-3c5a59cae89e")
+		)
+		(instances
+			(project "prilkeeb"
+				(path "/f238781f-c890-404f-bc9e-87ff6761e41b"
+					(reference "RST_SW2")
 					(unit 1)
 				)
 			)
