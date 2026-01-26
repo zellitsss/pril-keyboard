@@ -3852,7 +3852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 69.85 109.22 90)
 			(effects
 				(font
@@ -3926,7 +3926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 41.91 124.46 90)
 			(effects
 				(font
@@ -4000,7 +4000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 55.88 93.98 90)
 			(effects
 				(font
@@ -4243,7 +4243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 114.3 139.7 90)
 			(effects
 				(font
@@ -4681,7 +4681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 99.06 109.22 90)
 			(effects
 				(font
@@ -4755,7 +4755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 69.85 124.46 90)
 			(effects
 				(font
@@ -4973,7 +4973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 128.27 93.98 90)
 			(effects
 				(font
@@ -5047,7 +5047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 114.3 109.22 90)
 			(effects
 				(font
@@ -5121,7 +5121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 114.3 124.46 90)
 			(effects
 				(font
@@ -5195,7 +5195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 128.27 78.74 90)
 			(effects
 				(font
@@ -5269,7 +5269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 83.82 124.46 90)
 			(effects
 				(font
@@ -5415,7 +5415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 41.91 139.7 90)
 			(effects
 				(font
@@ -5489,7 +5489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 41.91 109.22 90)
 			(effects
 				(font
@@ -5635,7 +5635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 69.85 139.7 90)
 			(effects
 				(font
@@ -5993,7 +5993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 55.88 124.46 90)
 			(effects
 				(font
@@ -6139,7 +6139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 128.27 124.46 90)
 			(effects
 				(font
@@ -6213,7 +6213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 55.88 78.74 90)
 			(effects
 				(font
@@ -6369,7 +6369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 114.3 93.98 90)
 			(effects
 				(font
@@ -6443,7 +6443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 41.91 78.74 90)
 			(effects
 				(font
@@ -6588,7 +6588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 41.91 93.98 90)
 			(effects
 				(font
@@ -6662,7 +6662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 83.82 93.98 90)
 			(effects
 				(font
@@ -6736,7 +6736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 83.82 139.7 90)
 			(effects
 				(font
@@ -6810,7 +6810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 55.88 109.22 90)
 			(effects
 				(font
@@ -6956,7 +6956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 99.06 139.7 90)
 			(effects
 				(font
@@ -7030,7 +7030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 128.27 139.7 90)
 			(effects
 				(font
@@ -7104,7 +7104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 99.06 124.46 90)
 			(effects
 				(font
@@ -7394,7 +7394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 114.3 78.74 90)
 			(effects
 				(font
@@ -7539,7 +7539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 99.06 93.98 90)
 			(effects
 				(font
@@ -7757,7 +7757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 69.85 93.98 90)
 			(effects
 				(font
@@ -7831,7 +7831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 128.27 109.22 90)
 			(effects
 				(font
@@ -8407,7 +8407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 69.85 78.74 90)
 			(effects
 				(font
@@ -8553,7 +8553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 83.82 78.74 90)
 			(effects
 				(font
@@ -8767,7 +8767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 99.06 78.74 90)
 			(effects
 				(font
@@ -8913,7 +8913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 55.88 139.7 90)
 			(effects
 				(font
@@ -9202,7 +9202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "dumta:D_SMD_TH"
 			(at 83.82 109.22 90)
 			(effects
 				(font
